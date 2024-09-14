@@ -1,0 +1,161 @@
+/* Global Styles */
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container{
+  flex: 1;
+}
+
+/* Navbar Styles */
+
+.navbar-collapse{
+  background-color: #fff;
+  transition: all 0.4s ease-in-out;
+
+}
+
+
+.navbar {
+  height: 5rem;
+  transition: all 0.4s ease-in-out;
+  background-color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.navbar:hover {
+  box-shadow: 0 0.1rem .5rem rgb(0, 31, 35);
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar:hover {
+    box-shadow: 0 .1rem .5rem #fff;
+
+  }
+}
+.fa-ship {
+  color: rgb(96, 47, 34);
+  font-size: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.nav-link {
+  color: #222222 !important;
+  font-weight: 500 !important;
+}
+
+/* footer */
+
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.f-info {
+  display: flex;
+  height: 10rem;
+  background-color: #ebebeb;
+  flex-direction: column;
+  text-align: center;
+}
+
+.f-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.f-info-social {
+  margin-bottom: 1rem;
+}
+
+.f-info-links a {
+  margin-left: 1rem;
+  font-size: 1.1rem;
+}
+
+.f-privacy:hover {
+  text-decoration: underline;
+}
+.f-terms:hover {
+  text-decoration: underline;
+}
+
+.f-info-social {
+  height: 3rem;
+}
+.f-info-social i {
+  margin-top: 1rem;
+  color: #222222;
+  font-size: 2rem;
+  margin-left: 0.7rem;
+  transition: all 0.2s ease-in-out;
+}
+.f-info-social i:hover {
+  font-size: 2.2rem;
+}
+
+/* Cards */
+
+.listing-card {
+  border: none !important;
+  margin: auto;
+  margin-bottom: 7rem;
+  border-radius: 1.5rem !important;
+  transition: all 0.5s ease-in-out;
+}
+
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  height: 20rem !important;
+  margin-top: 1rem;
+}
+
+.card a {
+  text-decoration: none !important;
+  color: #222222;
+}
+
+/* Card effect */
+.listing-card:hover {
+  box-shadow: 0 0.1rem .5rem rgb(0, 31, 35);
+  background-color: #c4edf5ae;
+}
+
+
+/* New */
+.new-btn{
+  background-color: rgb(96, 47, 34) !important;
+  border: none !important;
+}
+
+
+/* edit */
+
+.edit-btn{
+  background-color: rgb(96, 47, 34) !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+/* Show */
+
+.show-img{
+  height: 30vh;
+}
+
+
+
+.card-del:hover{
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.btns{
+  display: flex;
+  margin-top: 1rem;
+}
